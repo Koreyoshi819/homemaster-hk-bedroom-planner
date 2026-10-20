@@ -32,7 +32,7 @@ window.addEventListener('unhandledrejection',()=>{$('status').textContent='Data 
 const data=await readJSON('./data/products.json');let state=null,selected=null,activeLayoutCategory=null,selectedPersonas=new Set(),history=[];
 // Keep the profile inputs visible on every fresh page load. Some browsers restore
 // a previously collapsed <details> state even when the HTML includes `open`.
-document.querySelector('.needs-panel')?.setAttribute('open','');
+// Keep advanced profile controls collapsed initially to preserve a focused workspace.
 function el(tag,text,parent){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;parent?.append(node);return node;}
 // Build tag inputs before restoring a saved plan.
 for(const preset of presets){const button=el('button',preset.name,$('persona-tags'));button.type='button';button.dataset.persona=preset.id;button.setAttribute('aria-pressed','false');button.onclick=()=>{if(selectedPersonas.has(preset.id))selectedPersonas.delete(preset.id);else selectedPersonas.add(preset.id);updatePersonas();};}
@@ -57,7 +57,7 @@ $('budget-balance').textContent=`${state.items.length} item(s) · Product budget
 const legend=$('layout-legend');legend.replaceChildren();for(const id of new Set(state.items.map(p=>p.browse_category||p.category))){const c=diagramPalette[id];if(!c)continue;const chip=el('span',undefined,legend);chip.className='legend-item';const dot=el('i',undefined,chip);dot.style.background=c.fill;dot.style.borderColor=c.edge;el('span',c.label,chip);}el('span','Category colours only; see product images for appearance',legend).className='legend-caption';
 const svg=$('room'),NS='http://www.w3.org/2000/svg';svg.setAttribute('viewBox',`-15 -20 ${state.room.w+30} ${state.room.d+45}`);
 function shape(tag,attrs,text){const n=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text)n.textContent=text;svg.append(n);return n;}
-shape('rect',{x:0,y:0,width:state.room.w,height:state.room.d,fill:'#fffaf1',stroke:'#97785c','stroke-width':3});
+shape('rect',{x:0,y:0,width:state.room.w,height:state.room.d,fill:'#f7f1e7',stroke:'#292826','stroke-width':9});
 for(const a of state.layout.reserved)shape('rect',{x:a.x,y:a.y,width:a.w,height:a.d,fill:'#e6d1b8',stroke:'#b29374','stroke-dasharray':'5 4'});
 shape('text',{x:7,y:state.room.d-10},'Door / reserved');shape('text',{x:state.room.w/2,y:-6},'Window / assumed position');shape('text',{x:0,y:state.room.d+20},`Area ${state.room.input_area_m2} m² · estimated ${(state.room.w/100).toFixed(2)} × ${(state.room.d/100).toFixed(2)} m`);
 for(const a of [...state.layout.objects].sort((a,b)=>(a.category==='rug'?0:1)-(b.category==='rug'?0:1))){const p=state.items.find(p=>p.product_id===a.product_id);
