@@ -1,8 +1,8 @@
-import {diagramColour,diagramPalette} from './palette.mjs?v=20261021-rug2';
-import {restorePlan} from './session.mjs?v=20261021-rug2';
-import {requirements,presets,evaluateProfile,satisfiesHard,profileSnapshot} from './profile.mjs?v=20261021-rug2';
-import {styles,styleScore} from './styles.mjs?v=20261021-rug2';
-import {eligible,place,recommend,validateLayout,substitute,footprint,addToLayout} from './engine.mjs?v=20261021-rug2';
+import {diagramColour,diagramPalette} from './palette.mjs?v=20261021-sample2';
+import {restorePlan} from './session.mjs?v=20261021-sample2';
+import {requirements,presets,evaluateProfile,satisfiesHard,profileSnapshot} from './profile.mjs?v=20261021-sample2';
+import {styles,styleScore} from './styles.mjs?v=20261021-sample2';
+import {eligible,place,recommend,validateLayout,substitute,footprint,addToLayout} from './engine.mjs?v=20261021-sample2';
 const $=id=>document.getElementById(id), money=n=>Number.isFinite(n)?'HK$ '+n.toLocaleString('en-HK',{minimumFractionDigits:2}):'Price pending', categoryNames={bed:'Bed',nightstand:'Bedside table',wardrobe:'Wardrobe',desk:'Desk',vanity:'Dressing table',vanity_stool:'Vanity stool',office_chair:'Office chair',bed_end_bench:'Bed-end bench',seating:'Seating',sofa:'Lounge chair',lamp:'Floor lamp',mirror:'Full-length mirror',rug:'Rug'}, names={bed:'Bed',nightstand:'Bedside table',desk:'Desk'};
 const hasCJK=value=>/[\u3400-\u9fff\uf900-\ufaff]/u.test(String(value??''));
 function englishText(value,fallback='Unknown / pending'){
@@ -155,6 +155,15 @@ showCatalogue();
 $('catalogue-more').onclick=()=>{catalogueLimit+=24;showCatalogue();};$('catalogue-clear').onclick=()=>{for(const id of ['catalogue-search','catalogue-category','catalogue-channel','catalogue-brand'])$(id).value='';catalogueLimit=24;showCatalogue();};
 
 const layoutLabels={bed:'Queen / double bed',nightstand:'Bedside table',wardrobe:'Wardrobe',lamp:'Floor lamp',vanity_stool:'Vanity / general stool',office_chair:'Office chair',vanity:'Dressing table',desk:'Bedroom / standing desk',sofa:'Lounge chair',bed_end_bench:'Bed-end bench',mirror:'Full-length mirror',rug:'Rug'};
+function loadSampleRoom(){
+ const categories=Object.keys(layoutLabels),items=categories.map(category=>{const candidates=data.filter(p=>p.browse_category===category&&footprint(p)&&Number.isFinite(p.price_hkd));const visible=category==='rug'?candidates.filter(p=>footprint(p).w*footprint(p).d>=40000):candidates;return (visible.length?visible:candidates).sort((a,b)=>a.price_hkd-b.price_hkd||footprint(a).w*footprint(a).d-footprint(b).w*footprint(b).d)[0];});
+ if(items.some(p=>!p)){$('status').textContent='The sample room could not load because one or more categories have no product with a confirmed price and footprint.';return;}
+ const area=16,side=400,room={w:side,d:side,input_area_m2:area,dimension_basis:'sample_square_from_area',actual_dimensions_confirmed:false};let layout={objects:[],reserved:[]};
+ for(const p of [...items].sort((a,b)=>(a.category==='rug'?-1:0)-(b.category==='rug'?-1:0))){layout=addToLayout(layout,p,room);if(!layout){$('status').textContent='The 12-category sample room could not be arranged with the current product records.';return;}}
+ remember();const total=knownTotal(items),budget=Math.max(20000,Math.ceil(total/1000)*1000);state={items,total,layout,room,budget,style:$('style').value,preferences:readPreferences()};selected=items.find(p=>p.browse_category==='bed')?.product_id||items[0].product_id;$('area').value=area;$('budget').value=budget;render();$('status').textContent=`Default sample room loaded: ${items.length} categories in an estimated 4 × 4 m room. Known product subtotal ${money(total)}. This is a demonstration layout; confirm the real room shape, openings, prices and availability before purchase.`;$('room').scrollIntoView({behavior:'smooth',block:'center'});
+}
+$('sample-room').onclick=loadSampleRoom;
+
 for(const [id,label]of Object.entries(layoutLabels)){const button=el('button',label,$('layout-categories'));button.dataset.category=id;const c=diagramPalette[id];if(c){button.style.setProperty('--category-colour',c.fill);button.style.setProperty('--category-edge',c.edge);}button.setAttribute('aria-pressed','false');button.onclick=()=>showLayoutCategory(id);}
 function showLayoutCategory(id){activeLayoutCategory=id;$('layout-picker').hidden=false;$('picker-title').textContent=layoutLabels[id];for(const button of $('layout-categories').children)button.setAttribute('aria-pressed',String(button.dataset.category===id));const rows=data.filter(p=>p.browse_category===id);$('picker-status').textContent=`${rows.length} products · ${rows.filter(footprint).length} with confirmed footprints. Choose Add to layout to try one; you do not need every category.`;const grid=$('picker-products');grid.replaceChildren();for(const p of rows){const card=el('div',undefined,grid);card.className='picker-item';const img=el('img',undefined,card);img.src=p.image;img.alt=productName(p);img.loading='lazy';const content=el('div',undefined,card);el('strong',productName(p),content);el('small',`${sourceName(p.channel,'Channel pending')} · ${money(p.price_hkd)}`,content);const inside=state?.items.some(i=>i.product_id===p.product_id);const size=footprint(p);el('small',size?`Footprint ${size.w} × ${size.d} cm`:'Footprint missing',content);const add=el('button',inside?'In layout':!size?'Dimensions pending':'Add to layout',content);add.disabled=!state||!size||inside||!satisfiesHard(p,currentProfile());if(state&&!satisfiesHard(p,currentProfile())){add.textContent='Required needs pending';}add.onclick=()=>addProduct(p);const detail=el('button','Details',content);detail.onclick=()=>catalogueDetail(p);}}
 $('picker-close').onclick=()=>{activeLayoutCategory=null;$('layout-picker').hidden=true;for(const b of $('layout-categories').children)b.setAttribute('aria-pressed','false');};
@@ -165,7 +174,7 @@ function activeNav(id){for(const a of navLinks){const active=a.hash==='#'+id;a.c
 for(const a of navLinks)a.addEventListener('click',()=>activeNav(a.hash.slice(1)));
 const navObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting)activeNav(entry.target.id);},{rootMargin:'-90px 0px -65% 0px',threshold:0});
 for(const id of ['planner','catalogue'])navObserver.observe($(id));
-$('rotate').title='Rotate selected furniture 90°; you can also press R';$('remove').title='Remove selected furniture from the current plan';$('reset-layout').title='Try to rearrange all furniture; keep the current layout if no valid arrangement is found';
+$('sample-room').title='Load one priced, dimensioned product from each of the 12 furniture categories';$('rotate').title='Rotate selected furniture 90°; you can also press R';$('remove').title='Remove selected furniture from the current plan';$('reset-layout').title='Try to rearrange all furniture; keep the current layout if no valid arrangement is found';
 
 for(const style of styles){const card=el('button',undefined,$('style-options'));const thumb=el('span',undefined,card);thumb.className='style-thumb board-'+style.board;thumb.style.backgroundImage=`url('./assets/style-reference-${style.board}.png')`;thumb.style.backgroundPosition=`${style.x}% ${style.y}%`;el('strong',style.name,card);el('small',style.en,card);el('span',style.description,card);card.onclick=()=>selectStyle(style.value);}
 function selectStyle(value){$('style').value=value;$('style').dispatchEvent(new Event('input',{bubbles:true}));$('style-dialog').close();}
