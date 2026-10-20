@@ -1,8 +1,8 @@
-import {diagramColour,diagramPalette} from './palette.mjs?v=20261021-en3';
-import {restorePlan} from './session.mjs?v=20261021-en3';
-import {requirements,presets,evaluateProfile,satisfiesHard,profileSnapshot} from './profile.mjs?v=20261021-en3';
-import {styles,styleScore} from './styles.mjs?v=20261021-en3';
-import {eligible,place,recommend,validateLayout,substitute,footprint,addToLayout} from './engine.mjs?v=20261021-en3';
+import {diagramColour,diagramPalette} from './palette.mjs?v=20261021-rug2';
+import {restorePlan} from './session.mjs?v=20261021-rug2';
+import {requirements,presets,evaluateProfile,satisfiesHard,profileSnapshot} from './profile.mjs?v=20261021-rug2';
+import {styles,styleScore} from './styles.mjs?v=20261021-rug2';
+import {eligible,place,recommend,validateLayout,substitute,footprint,addToLayout} from './engine.mjs?v=20261021-rug2';
 const $=id=>document.getElementById(id), money=n=>Number.isFinite(n)?'HK$ '+n.toLocaleString('en-HK',{minimumFractionDigits:2}):'Price pending', categoryNames={bed:'Bed',nightstand:'Bedside table',wardrobe:'Wardrobe',desk:'Desk',vanity:'Dressing table',vanity_stool:'Vanity stool',office_chair:'Office chair',bed_end_bench:'Bed-end bench',seating:'Seating',sofa:'Lounge chair',lamp:'Floor lamp',mirror:'Full-length mirror',rug:'Rug'}, names={bed:'Bed',nightstand:'Bedside table',desk:'Desk'};
 const hasCJK=value=>/[\u3400-\u9fff\uf900-\ufaff]/u.test(String(value??''));
 function englishText(value,fallback='Unknown / pending'){
@@ -79,7 +79,9 @@ if(p.category==='bed'){
  for(const x of [4,bw-8])for(const y of [4,bd-8])part('rect',{x,y,width:4,height:4,fill:'#bbb1a0'});
  part('line',{x1:7,y1:bd-3,x2:bw-7,y2:bd-3,stroke:'#b7a98f','stroke-width':2});
 }else if(p.category==='rug'){
- part('rect',{x:1,y:1,width:bw-2,height:bd-2,rx:2,fill:colour.fill,stroke:colour.edge,'stroke-dasharray':'4 3'});
+ part('rect',{x:1,y:1,width:bw-2,height:bd-2,rx:3,fill:colour.fill,stroke:colour.edge,'stroke-width':2,'stroke-dasharray':'5 3'});
+ part('rect',{x:6,y:6,width:Math.max(1,bw-12),height:Math.max(1,bd-12),rx:2,fill:'none',stroke:'#EFF8F7','stroke-width':2,'stroke-dasharray':'3 4'});
+ for(let y=14;y<bd-8;y+=14)part('line',{x1:9,y1:y,x2:Math.max(9,bw-9),y2:y,stroke:'#8DBAB7','stroke-width':1,opacity:.42});
 }else if(p.category==='lamp'){
  part('ellipse',{cx:bw/2,cy:bd/2,rx:bw/2-2,ry:bd/2-2,fill:colour.fill,stroke:colour.edge});
 }else if(p.category==='mirror'){

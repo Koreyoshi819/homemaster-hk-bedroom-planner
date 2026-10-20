@@ -11,6 +11,6 @@ export const diagramPalette={
  sofa:{fill:'#C9CEAE',edge:'#858C60',label:'Lounge chair'},
  lamp:{fill:'#E7D7A5',edge:'#A58F4E',label:'Floor lamp'},
  mirror:{fill:'#CFDAD7',edge:'#829893',label:'Full-length mirror'},
- rug:{fill:'#C2DEDC',edge:'#739D9B',label:'Rug'}
+ rug:{fill:'#C2DEDC',edge:'#4F8582',label:'Rug'}
 };
 export function diagramColour(p){return diagramPalette[p.browse_category||p.category]||{fill:'#D4CEC5',edge:'#8E8578',label:'Furniture'};}
