@@ -1,0 +1,70 @@
+[
+  {
+    "source_id": "ikea_malm",
+    "url": "https://www.ikea.com.hk/en/products/beds/bed-frames/malm-spr-99009450",
+    "accessed_on": "2026-10-19",
+    "method": "automated official-page read via web tool",
+    "human_reviewed": false,
+    "price_hkd_observed": 2299,
+    "price_matches_snapshot": true,
+    "dimensions_match_snapshot": true,
+    "page_cache_note": "TORALD web extraction reports crawl yesterday; other two today. Not a checkout price guarantee.",
+    "service_cost_hkd": null,
+    "offer_sets": 1,
+    "physical_packages": 4,
+    "included_components": [
+      "MALM bed frame",
+      "SKORVA midbeam",
+      "LURÖY slatted bed base"
+    ],
+    "assembly_extra_length_cm": 10,
+    "stock_observed": "warehouse 8; dynamic"
+  },
+  {
+    "source_id": "ikea_knarrevik",
+    "url": "https://www.ikea.com.hk/en/products/bedside-tables-and-dressing-tables/bedside-tables/knarrevik-art-80576319",
+    "accessed_on": "2026-10-19",
+    "method": "automated official-page read via web tool",
+    "human_reviewed": false,
+    "price_hkd_observed": 99.9,
+    "price_matches_snapshot": true,
+    "dimensions_match_snapshot": true,
+    "page_cache_note": "TORALD web extraction reports crawl yesterday; other two today. Not a checkout price guarantee.",
+    "service_cost_hkd": null,
+    "stock_observed": "warehouse stock shown; dynamic"
+  },
+  {
+    "source_id": "ikea_torald",
+    "url": "https://www.ikea.com.hk/en/products/work-desks/home-desks/torald-art-70493956",
+    "accessed_on": "2026-10-19",
+    "method": "automated official-page read via web tool",
+    "human_reviewed": false,
+    "price_hkd_observed": 229.9,
+    "price_matches_snapshot": true,
+    "dimensions_match_snapshot": true,
+    "page_cache_note": "TORALD web extraction reports crawl yesterday; other two today. Not a checkout price guarantee.",
+    "service_cost_hkd": null,
+    "stock_observed": "warehouse stock shown; dynamic"
+  },
+  {
+    "source_id": "ikea_malm",
+    "url": "https://www.ikea.com.hk/en/products/bedside-tables-and-dressing-tables/dressing-tables-and-clothes-racks/malm-art-40355409",
+    "accessed_on": "2026-10-19",
+    "method": "automated official-page read via web tool",
+    "human_reviewed": false,
+    "price_hkd_observed": 1199.0,
+    "price_matches_snapshot": true,
+    "dimensions_match_snapshot": true,
+    "page_cache_note": "TORALD web extraction reports crawl yesterday; other two today. Not a checkout price guarantee.",
+    "service_cost_hkd": null,
+    "offer_sets": 1,
+    "physical_packages": 4,
+    "included_components": [
+      "MALM bed frame",
+      "SKORVA midbeam",
+      "LURÖY slatted bed base"
+    ],
+    "assembly_extra_length_cm": 10,
+    "stock_observed": "warehouse 8; dynamic"
+  }
+]

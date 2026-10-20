@@ -1,0 +1,197 @@
+{
+  "categories": [
+    {
+      "category": "bed",
+      "records": 38,
+      "missing_fields": {
+        "quantity_per_offer": 38,
+        "width": 10,
+        "depth": 10,
+        "height": 10,
+        "price": 6
+      },
+      "images_present": 38,
+      "pending_file_present": false
+    },
+    {
+      "category": "nightstand",
+      "records": 37,
+      "missing_fields": {
+        "width": 9,
+        "depth": 9,
+        "height": 9,
+        "price": 6
+      },
+      "images_present": 37,
+      "pending_file_present": false
+    },
+    {
+      "category": "wardrobe",
+      "records": 28,
+      "missing_fields": {
+        "price": 3,
+        "width": 2,
+        "depth": 2,
+        "height": 2
+      },
+      "images_present": 28,
+      "pending_file_present": true
+    },
+    {
+      "category": "desk",
+      "records": 33,
+      "missing_fields": {
+        "width": 8,
+        "depth": 8,
+        "height": 8,
+        "price": 7
+      },
+      "images_present": 33,
+      "pending_file_present": true
+    },
+    {
+      "category": "vanity",
+      "records": 22,
+      "missing_fields": {
+        "quantity_per_offer": 22,
+        "width": 4,
+        "depth": 4,
+        "height": 4,
+        "price": 1
+      },
+      "images_present": 22,
+      "pending_file_present": true
+    },
+    {
+      "category": "seating",
+      "records": 29,
+      "missing_fields": {
+        "depth": 6,
+        "width": 5,
+        "height": 5
+      },
+      "images_present": 29,
+      "pending_file_present": true
+    },
+    {
+      "category": "sofa",
+      "records": 20,
+      "missing_fields": {
+        "quantity_per_offer": 20,
+        "width": 8,
+        "depth": 8,
+        "height": 8,
+        "price": 1
+      },
+      "images_present": 20,
+      "pending_file_present": true
+    },
+    {
+      "category": "lamp",
+      "records": 29,
+      "missing_fields": {
+        "width": 26,
+        "depth": 26,
+        "height": 26,
+        "price": 6
+      },
+      "images_present": 29,
+      "pending_file_present": true
+    },
+    {
+      "category": "mirror",
+      "records": 22,
+      "missing_fields": {
+        "depth": 13,
+        "quantity_per_offer": 22,
+        "width": 3,
+        "height": 3,
+        "price": 1
+      },
+      "images_present": 22,
+      "pending_file_present": true
+    },
+    {
+      "category": "rug",
+      "records": 25,
+      "missing_fields": {
+        "height": 25,
+        "quantity_per_offer": 25,
+        "width": 4,
+        "depth": 4,
+        "price": 3
+      },
+      "images_present": 25,
+      "pending_file_present": true
+    }
+  ],
+  "total_records": 283,
+  "human_reviewed_records": 0,
+  "archives": [
+    {
+      "file": "HK_Floor_Lamp_Design_Assets_V1.zip",
+      "entries": 36,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Nightstand_Design_Assets_V1.zip",
+      "entries": 43,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Dressing_Table_Design_Assets_V1.zip",
+      "entries": 29,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Full_Length_Mirror_Design_Assets_V1.zip",
+      "entries": 29,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Rug_Design_Assets_V1.zip",
+      "entries": 32,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Bedroom_Seating_Design_Assets_V1.zip",
+      "entries": 39,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Bed_Design_Assets_V3.zip",
+      "entries": 42,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Bed_Design_Assets_V2.zip",
+      "entries": 30,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Queen_Bed_Design_Assets.zip",
+      "entries": 8,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Desk_Design_Assets_V1.zip",
+      "entries": 40,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Wardrobe_Design_Assets_V1.zip",
+      "entries": 35,
+      "bad_entry": null
+    },
+    {
+      "file": "HK_Lazy_Sofa_Design_Assets_V1.zip",
+      "entries": 29,
+      "bad_entry": null
+    }
+  ],
+  "historical_bed_sources_excluded": [
+    "queen_bed_assets",
+    "queen_bed_assets_v2"
+  ],
+  "duplicate_urls": []
+}

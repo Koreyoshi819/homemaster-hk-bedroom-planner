@@ -1,0 +1,2501 @@
+{
+  "categories": [
+    {
+      "id": "bed",
+      "label": "双人床／床架",
+      "count": 38
+    },
+    {
+      "id": "nightstand",
+      "label": "床头柜",
+      "count": 37
+    },
+    {
+      "id": "wardrobe",
+      "label": "衣柜",
+      "count": 28
+    },
+    {
+      "id": "desk",
+      "label": "书桌／升降桌",
+      "count": 33
+    },
+    {
+      "id": "vanity",
+      "label": "梳妆台",
+      "count": 22
+    },
+    {
+      "id": "vanity_stool",
+      "label": "妆凳／通用凳",
+      "count": 11
+    },
+    {
+      "id": "office_chair",
+      "label": "办公椅",
+      "count": 8
+    },
+    {
+      "id": "bed_end_bench",
+      "label": "床尾凳／长凳",
+      "count": 10
+    },
+    {
+      "id": "sofa",
+      "label": "懒人沙发",
+      "count": 20
+    },
+    {
+      "id": "lamp",
+      "label": "落地灯",
+      "count": 29
+    },
+    {
+      "id": "mirror",
+      "label": "全身镜",
+      "count": 22
+    },
+    {
+      "id": "rug",
+      "label": "地毯",
+      "count": 25
+    }
+  ],
+  "brands": [
+    {
+      "name": "IKEA 宜家家居",
+      "channel_key": "IKEA",
+      "url": "https://www.ikea.com.hk/",
+      "records": 54,
+      "category_counts": {
+        "双人床／床架": 2,
+        "床头柜": 5,
+        "衣柜": 7,
+        "书桌／升降桌": 6,
+        "梳妆台": 5,
+        "妆凳／通用凳": 3,
+        "办公椅": 4,
+        "落地灯": 8,
+        "全身镜": 7,
+        "地毯": 7
+      },
+      "manufacturer_labels": [
+        "IKEA"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有床款及价格；注意床板、床脚和床褥包含内容",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集5款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对7条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集6款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对5条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对7条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对8条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对7条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对7条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Pricerite 实惠",
+      "channel_key": "Pricerite",
+      "url": "https://www.pricerite.com.hk/",
+      "records": 6,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "衣柜": 1,
+        "书桌／升降桌": 2,
+        "落地灯": 1
+      },
+      "manufacturer_labels": [
+        "CEMENTO",
+        "LIFTY（制造品牌未明确）",
+        "Panasonic 乐声牌",
+        "Pricerite",
+        "RED APPLE 红苹果",
+        "ZENOX"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增MOU三抽屉床；优惠与规格价格待配对",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对1条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集2款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "ALEN、MIA及Red Apple有型号资料，但本次读取单品页均显示Not For Sale，未使用分类旧价。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对1条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "找到曲木企身镜及壁挂镜，但当前单品页显示Not For Sale；不把旧宣传价当可购买价。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "NITORI 宜得利",
+      "channel_key": "NITORI",
+      "url": "https://www.nitori.com.hk/",
+      "records": 14,
+      "category_counts": {
+        "床头柜": 1,
+        "衣柜": 1,
+        "梳妆台": 2,
+        "办公椅": 2,
+        "懒人沙发": 6,
+        "地毯": 2
+      },
+      "manufacturer_labels": [
+        "NITORI"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "检索到HC270床款；实时规格价及图片未完成核实，未计入素材款数",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对1条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "官方书房分类有NE001、DX001等书桌线索；本轮未完成有效单品、当前港币价与实图配对，不计入完整商品数。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对2条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对2条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "已配对6条实图记录；类别、库存及报价口径见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "本轮未完成香港落地灯有效单品、价格与图片配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对2条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "MUJI 无印良品",
+      "channel_key": "MUJI",
+      "url": "https://onlineshop.muji.com.hk/",
+      "records": 9,
+      "category_counts": {
+        "双人床／床架": 2,
+        "书桌／升降桌": 1,
+        "妆凳／通用凳": 2,
+        "懒人沙发": 2,
+        "全身镜": 2
+      },
+      "manufacturer_labels": [
+        "MUJI"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有床款；平台、床脚、床头板可能分售",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "本次香港网店未确认专门床头柜SKU；官方推荐钢质可堆叠櫈作床边桌，但属替代类别，未混入本数据集。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成整套衣柜配对；衣柜内用PP抽屉箱及单独衣架不计入整柜。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成专门梳妆台配对；普通书桌＋另购镜子不直接视作梳妆台套装。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对2条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "已配对2条实图记录；类别、库存及报价口径见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "本轮未完成香港落地灯有效单品配对；不将台灯或日本市场价格直接移入香港数据。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对2条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "旧香港地毯分类入口已转到新网店；未采用旧320元标价，当前尺寸SKU与图待补。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Francfranc",
+      "channel_key": "Francfranc",
+      "url": "https://hk.francfranc.net/",
+      "records": 24,
+      "category_counts": {
+        "床头柜": 1,
+        "书桌／升降桌": 1,
+        "梳妆台": 3,
+        "妆凳／通用凳": 4,
+        "办公椅": 1,
+        "床尾凳／长凳": 3,
+        "懒人沙发": 4,
+        "全身镜": 3,
+        "地毯": 4
+      },
+      "manufacturer_labels": [
+        "Francfranc"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "香港有效床架商品未确认；不把床品当床架",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成香港衣柜单品、价格与实图配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对3条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对8条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "已配对4条实图记录；类别、库存及报价口径见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "香港Lamp分类可查台灯与小夜灯，本轮未完成落地灯有效SKU配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对3条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对4条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "at.home",
+      "channel_key": "at.home",
+      "url": "https://www.athome.com.hk/",
+      "records": 6,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "衣柜": 2,
+        "书桌／升降桌": 1,
+        "落地灯": 1
+      },
+      "manufacturer_labels": [
+        "Leitmotiv",
+        "at.home"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有DREAM；137×190cm为Double参考",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对2条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对1条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "TREE",
+      "channel_key": "TREE",
+      "url": "https://tree.com.hk/",
+      "records": 18,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 4,
+        "衣柜": 3,
+        "书桌／升降桌": 3,
+        "梳妆台": 1,
+        "床尾凳／长凳": 2,
+        "落地灯": 2,
+        "全身镜": 2
+      },
+      "manufacturer_labels": [
+        "Ethnicraft",
+        "Karpenter",
+        "TREE",
+        "dBodhi"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有床款；材质按系列核实",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集4款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对3条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集3款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对1条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对2条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对2条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对2条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "香港官网有地毯分类；动态目录未完成具体SKU与当前尺寸价配对，待补。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "OVO",
+      "channel_key": "OVO",
+      "url": "https://ovo.com.hk/",
+      "records": 13,
+      "category_counts": {
+        "双人床／床架": 4,
+        "书桌／升降桌": 1,
+        "梳妆台": 3,
+        "妆凳／通用凳": 2,
+        "床尾凳／长凳": 2,
+        "地毯": 1
+      },
+      "manufacturer_labels": [
+        "OVO"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有床款；定制部分另报价",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "有Bed & Nightstand分类；本次未完成具体床头柜SKU、港币价与图片配对，待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "LOUVRE衣柜有官方型号入口；当前价格与实图配对待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对3条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对4条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "YARAR、PIKUL、KAI-O有官方价格线索，未完成单品实图配对，详见待补清单。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对1条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "SimplyLife",
+      "channel_key": "SimplyLife",
+      "url": "https://www.simplylifehk.com/",
+      "records": 1,
+      "category_counts": {
+        "床头柜": 1
+      },
+      "manufacturer_labels": [
+        "SimplyLife"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "床架分类页不足以确认有效在售SKU；占位价格不入库",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "旧搜索有Simon／Skye等款，实时衣柜分类显示没有找到产品；旧促销不当当前报价。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "本轮未完成可核实书桌商品、价格与图片配对；不代表品牌没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "本轮未完成香港落地灯有效单品、价格与图片配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "PENTA Living",
+      "channel_key": "PENTA Living",
+      "url": "https://penta-living.com/",
+      "records": 16,
+      "category_counts": {
+        "双人床／床架": 10,
+        "床头柜": 4,
+        "书桌／升降桌": 2
+      },
+      "manufacturer_labels": [
+        "PENTA Living"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有多款；按面料及储物配置核价",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集4款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜具体SKU与实图配对；不把其他柜类或搭配文章当商品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集2款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "可查照明搭配文章，本轮未完成落地灯具体SKU配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "EMOH",
+      "channel_key": "EMOH",
+      "url": "https://www.emohdesign.com/",
+      "records": 9,
+      "category_counts": {
+        "床头柜": 2,
+        "衣柜": 2,
+        "书桌／升降桌": 3,
+        "落地灯": 2
+      },
+      "manufacturer_labels": [
+        "DOLCH II",
+        "Leitmotiv"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "本次未确认有效床SKU；不与近似名称网站合并",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集2款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对2条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集3款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对2条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "BoConcept",
+      "channel_key": "BoConcept",
+      "url": "https://www.boconcept.com/en-hk/",
+      "records": 0,
+      "category_counts": {},
+      "manufacturer_labels": [],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "香港官网有床类；Element起售价不等于Queen确价，待补尺寸图像配对",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "香港官网有Element、Lugano；Element 3790AA000702075页面参考HK$6,079、55×33×50cm。对应实图未完成下载，未计入完整商品集。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成香港衣柜具体型号与实图配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已找到Cupertino Executive T047香港页面，参考标价21190及19390起的配置线索；官方图片下载未成功，完整记录列pending_products.json，不计入实图商品数。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "有Kuta香港分类页参考价线索；实图及具体配置待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "香港有地毯目录及多尺寸起价；未完成本次具体选项价与实图配对，待补。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Indigo Living",
+      "channel_key": "Indigo Living",
+      "url": "https://indigo-living.com/",
+      "records": 6,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 3,
+        "书桌／升降桌": 1,
+        "落地灯": 1
+      },
+      "manufacturer_labels": [
+        "Indigo Living"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增Weston；当前读取为King默认SKU，Queen另询",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集3款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜有效单品与实图配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对1条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "有Malta Floor Mirror型号线索；本次未完成实时价格、库存及图片配对，待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "有Joy等多尺寸地毯线索；当前选项、价格及图片未完成配对，待补。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "ALOT Living",
+      "channel_key": "ALOT Living",
+      "url": "https://alot.com.hk/",
+      "records": 8,
+      "category_counts": {
+        "双人床／床架": 6,
+        "床头柜": 1,
+        "书桌／升降桌": 1
+      },
+      "manufacturer_labels": [
+        "HIRASHIMA",
+        "NIHON BED",
+        "PURO",
+        "SALA",
+        "Source / PURO系列",
+        "TOCCO",
+        "Takano Mokkou"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "V2已有6款；渠道与NIHON BED等制造品牌分开",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "Unison、PURO、SALA等衣柜有分类线索；具体尺寸、当前价与图待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "有ILKW SNOWMAN22 V2 Floor系列，具体版本、价格及图片配对待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Manks",
+      "channel_key": "Manks",
+      "url": "https://www.manks.com/en/",
+      "records": 14,
+      "category_counts": {
+        "床头柜": 1,
+        "书桌／升降桌": 1,
+        "梳妆台": 1,
+        "办公椅": 1,
+        "落地灯": 5,
+        "全身镜": 1,
+        "地毯": 4
+      },
+      "manufacturer_labels": [
+        "ASPLUND",
+        "Fredericia",
+        "Louis Poulsen",
+        "Muuto",
+        "NORDICMODERN",
+        "Nuura",
+        "Secto Design",
+        "Urbancraft",
+        "Wendelbo",
+        "制造品牌未明确核实（AV04）",
+        "制造品牌需渠道确认（AK 1310）"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "有效双人床SKU本次未确认；待渠道查询",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成具体制造品牌衣柜的有效单品配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对1条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对1条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对5条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对1条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对4条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "HOMELESS",
+      "channel_key": "HOMELESS",
+      "url": "https://homeless.hk/",
+      "records": 6,
+      "category_counts": {
+        "懒人沙发": 1,
+        "全身镜": 5
+      },
+      "manufacturer_labels": [
+        "&Tradition",
+        "Fatboy",
+        "Magis",
+        "Umbra",
+        "Verpan"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "有沙发床调查线索；普通双人床本次未确认，未混入床架样本",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "有Bedside Table分类，但本次页面出现模板错误；具体SKU、制造品牌及价格待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜有效单品配对；普通挂钩或衣帽架不计入封闭衣柜。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "本轮未完成具体书桌SKU的品牌、价格与图片配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "已配对1条实图记录；类别、库存及报价口径见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "有Hübsch、Northern、HAY等落地灯线索；未完成当前单品实图配对，不计入29条图像记录。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对5条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Ulferts 欧化傢俬",
+      "channel_key": "Ulferts",
+      "url": "https://www.ulferts.com.hk/",
+      "records": 0,
+      "category_counts": {},
+      "manufacturer_labels": [],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "具体床款、制造品牌、规格和价格待询价",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "本次未确认有效床头柜商品页与报价；不采用多年前报道中的价格。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "具体衣柜制造品牌、型号与配置报价待补；与at.home分别记录。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "具体书桌制造品牌、配置、港币报价待渠道确认；不根据家具套装推定单桌价。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "本轮未完成渠道内具体制造品牌落地灯的单品配对；与at.home分别记录。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Decor8",
+      "channel_key": "Decor8",
+      "url": "https://www.decor8.com.hk/",
+      "records": 0,
+      "category_counts": {},
+      "manufacturer_labels": [],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "床类有检索线索；当前SKU与价格未完成核实，旧宣传价不入库",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "找到Essentials Round Storage Unit，检索参考HK$1,190、直径41.5×高48.5cm；实时页及图像未完成核实，未计入完整商品集。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "有衣柜及大型储物柜分类；具体配置、当前价与实图待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "有办公桌分类及可调高桌款线索；本轮未完成当前单品与实图配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "有落地灯类别及参考价格；具体选项、实图与实时供应待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "STOCKROOM",
+      "channel_key": "STOCKROOM",
+      "url": "https://www.stockroom.com.hk/home",
+      "records": 35,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 3,
+        "衣柜": 6,
+        "书桌／升降桌": 2,
+        "梳妆台": 6,
+        "床尾凳／长凳": 3,
+        "懒人沙发": 6,
+        "落地灯": 3,
+        "全身镜": 1,
+        "地毯": 4
+      },
+      "manufacturer_labels": [
+        "STOCKROOM",
+        "STOCKROOM选品（制造品牌未明确）",
+        "STOCKROOM选品（制造品牌未注明）",
+        "制造品牌未独立注明"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增Milan；页面基础价与Queen选项报价分开",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集3款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对6条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集2款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "已配对6条香港商品资料及实图；包含内容与库存见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "已配对3条香港商品及实图；用途、包装、缺货与配置条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "已配对6条实图记录；类别、库存及报价口径见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对3条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对1条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对4条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Hush Home",
+      "channel_key": "Hush Home",
+      "url": "https://www.hushhome.com/",
+      "records": 3,
+      "category_counts": {
+        "双人床／床架": 2,
+        "床头柜": 1
+      },
+      "manufacturer_labels": [
+        "Hush Home"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增2款实际图；起售价不直接当Queen售价",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜SKU配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "本轮未取得可核实的书桌／升降桌SKU；不将床边家具混入桌类。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "本轮未完成落地灯SKU；不将床边家饰或安全文章当作商品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Sea Horse 海马牌",
+      "channel_key": "Sea Horse 海马牌",
+      "url": "https://www.seahorse.com.hk/home",
+      "records": 1,
+      "category_counts": {
+        "双人床／床架": 1
+      },
+      "manufacturer_labels": [
+        "Sea Horse 海马牌"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增BED34E；商品来源为海马特卖场，6075尺寸与系列最低价分开",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "本次未完成官方床头柜商品、价格及图片配对；不能据床架系列推定配套柜价格。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜SKU配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "本轮未完成书桌／升降桌的有效商品配对，保留待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "本轮未完成落地灯SKU。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "HoHome 好傢俬",
+      "channel_key": "HoHome 好傢俬",
+      "url": "https://hohomehk.com/",
+      "records": 6,
+      "category_counts": {
+        "床头柜": 2,
+        "衣柜": 3,
+        "书桌／升降桌": 1
+      },
+      "manufacturer_labels": [
+        "HoHome 好傢俬"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "采用案例＋尺寸＋材料＋报价条件；案例不是固定价SKU",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集2款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对3条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "场景图片出现落地灯不代表该灯单独售卖，未建立可售灯具记录。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Poliform",
+      "channel_key": "Poliform",
+      "url": "https://poliformhk.com/store/",
+      "records": 9,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "衣柜": 1,
+        "书桌／升降桌": 1,
+        "落地灯": 1,
+        "全身镜": 1,
+        "地毯": 3
+      },
+      "manufacturer_labels": [
+        "Poliform"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "香港目录有KELLY；价格、Queen配置及交期待门店确认",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对1条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对1条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "已配对1条商品／配置图像记录；具体型号、库存与价格条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "已配对3条商品／系列记录；当前价格、尺寸与图片范围见单品。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Molteni&C",
+      "channel_key": "Molteni&C",
+      "url": "https://www.molteni.it/zh/cn/store/hong-kong",
+      "records": 3,
+      "category_counts": {
+        "床头柜": 1,
+        "衣柜": 1,
+        "书桌／升降桌": 1
+      },
+      "manufacturer_labels": [
+        "Molteni&C"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "香港门店渠道；ANTON全球型号可作下一步调查，未取得本次本地素材及报价",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对1条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "全球Out／Meridiano等户外照明有资料；卧室室内适用配置与香港单品供应待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Minotti",
+      "channel_key": "Minotti",
+      "url": "https://www.minotti.com/en/minotti-hong-kong-by-andante",
+      "records": 4,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "书桌／升降桌": 1,
+        "落地灯": 1
+      },
+      "manufacturer_labels": [
+        "Minotti"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增ROGER BED全球型号图；香港订购该型号待确认",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜有效型号配对；不根据卧室场景推定整面衣柜品牌。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对1条实图记录；所选配置、价格与供应状态见单品。 本轮为全球型号参考，香港该型号可订购尚未确认。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Cassina",
+      "channel_key": "Cassina",
+      "url": "https://www.cassina.com/ww/en/store-locator/cassina-store-hong-kong-008218-1.html",
+      "records": 3,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "书桌／升降桌": 1
+      },
+      "manufacturer_labels": [
+        "Cassina"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增CAB NIGHT全球型号图；香港规格与报价待确认",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜有效型号、价格与图配对。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "有Samambu等全球落地灯型号；香港报价及有效实图配对待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Poltrona Frau",
+      "channel_key": "Poltrona Frau",
+      "url": "https://www.poltronafrau.com/be/de/store-locator/poltrona-frau-hong-kong-by-farrington-interiors-limited-007978-4.html",
+      "records": 6,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "书桌／升降桌": 1,
+        "梳妆台": 1,
+        "落地灯": 2
+      },
+      "manufacturer_labels": [
+        "Poltrona Frau"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增Suzie Wong；全球Queen规格不是香港库存证明",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜有效型号配对；行李柜或床边储物不自动算衣柜。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "1条Ren全球官方型号参考；香港具体型号配置、供应与价格未确认，不计作已核实香港现货。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对2条实图记录；所选配置、价格与供应状态见单品。 本轮为全球型号参考，香港该型号可订购尚未确认。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "B&B Italia",
+      "channel_key": "B&B Italia",
+      "url": "https://www.lanecrawford.com.hk/brand/84403753/b-b-italia/women/",
+      "records": 2,
+      "category_counts": {
+        "双人床／床架": 1,
+        "书桌／升降桌": 1
+      },
+      "manufacturer_labels": [
+        "B&B Italia"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "新增HUSK全球型号图；香港渠道的具体床款供应待确认",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "全球Dado系列包含床边用单元；本次未将大斗柜主图误列为具体床头柜，香港配置与报价待补。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "本轮未完成衣柜有效型号配对；场景中的柜体品牌与配置须另核。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "本轮未完成懒人沙发单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "场景照明可能为其他制造品牌；本轮未据房间照片推定B&B Italia自有落地灯。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    },
+    {
+      "name": "Roche Bobois",
+      "channel_key": "Roche Bobois",
+      "url": "https://www.roche-bobois.com/en-HK/homepage.html",
+      "records": 7,
+      "category_counts": {
+        "双人床／床架": 1,
+        "床头柜": 1,
+        "衣柜": 1,
+        "书桌／升降桌": 1,
+        "懒人沙发": 1,
+        "落地灯": 2
+      },
+      "manufacturer_labels": [
+        "Roche Bobois"
+      ],
+      "research": [
+        {
+          "source_file": "output/bed_assets_v3/brands.json",
+          "status": "香港站有BUBBLE床；价格及规格另询",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/nightstand_assets/brands.json",
+          "status": "已收集1款实图商品资料；详见商品记录的价格、库存及来源。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/wardrobe_assets/brands.json",
+          "status": "已配对1条商品／配置实图；价格、库存与示意图条件见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/desk_assets/brands.json",
+          "status": "已收集1款实图记录；具体价格、驱动、规格和香港供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/dressing_table_assets/brands.json",
+          "status": "本轮未完成梳妆台单品、当前价格及实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/bedroom_seating_assets/brands.json",
+          "status": "本轮未完成该品类单品、当前价格和实图配对；不代表没有售卖。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/lazy_sofa_assets/brands.json",
+          "status": "已配对1条实图记录；类别、库存及报价口径见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/floor_lamp_assets/brands.json",
+          "status": "已配对2条实图记录；所选配置、价格与供应状态见单品。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/full_length_mirror_assets/brands.json",
+          "status": "本轮未完成有效全身镜单品与当前价格、实图配对；不代表没有销售。",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "source_file": "output/rug_assets/brands.json",
+          "status": "本轮未完成有效地毯SKU、当前香港价格及实图配对；未完成不代表没有销售。",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "note": "无已配对记录不代表没有销售；制造品牌以单品记录为准。"
+    }
+  ],
+  "total_records": 283,
+  "channel_count": 26,
+  "human_reviewed": 0,
+  "pending": [
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "OVO",
+        "name": "LOUVRE Wardrobe",
+        "price_reference_hkd": null,
+        "source_url": "https://ovo.com.hk/products/louvre-wardrobe-3-drawers-1-hanging-bar-inside",
+        "reason": "有官方衣柜型号入口，本轮未完成当前价格、配置与实图配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "ALOT Living",
+        "name": "丸田木工 Unison Wardrobe",
+        "price_reference_hkd": 7330,
+        "source_url": "https://alot.com.hk/collections/wardrobe",
+        "reason": "分类页起价；不同宽度、饰面及顶柜另价；未完成单品图配对，不把3880起顶柜价当整柜",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "ALOT Living",
+        "name": "PURO Wardrobe",
+        "price_reference_hkd": 13800,
+        "source_url": "https://alot.com.hk/collections/wardrobe",
+        "reason": "分类页起价，尺寸／木色及实图未完成配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "ALOT Living",
+        "name": "SALA Wardrobe",
+        "price_reference_hkd": 14140,
+        "source_url": "https://alot.com.hk/collections/wardrobe",
+        "reason": "分类页起价，配置与实图配对待补",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "NITORI",
+        "name": "QUESS T",
+        "price_reference_hkd": 2490,
+        "source_url": "https://www.nitori.com.hk/products/傢俱-衣櫃-quess-t",
+        "reason": "分类页2490起；本轮未完成当前选项与图片配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "SimplyLife",
+        "name": "Simon 趟门衣柜180cm",
+        "price_reference_hkd": 6999,
+        "source_url": "https://www.simplylifehk.com/wardrobe.html",
+        "reason": "旧搜索记录价6999；2026-10-19实时分类显示没有找到产品，不能作为当前可购买推荐",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/wardrobe_assets/pending_products.json",
+      "record": {
+        "channel": "SimplyLife",
+        "name": "Skye 三／四门掩门衣柜",
+        "price_reference_hkd": 4139,
+        "source_url": "https://www.simplylifehk.com/wardrobe.html",
+        "reason": "旧清货记录价4139；实时分类无商品，价格及供应待重新核实",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/desk_assets/pending_products.json",
+      "record": {
+        "id": "boconcept",
+        "category": "bedroom_desk",
+        "desk_type": "固定书桌",
+        "actuation": "不适用",
+        "height_range_cm": null,
+        "max_load_kg": null,
+        "channel": "BoConcept",
+        "brand": "BoConcept",
+        "name": "Cupertino Executive Desk / T047",
+        "model": "Cupertino Executive Desk / T047",
+        "source_url": "https://www.boconcept.com/en-hk/p/cupertino/370t047-9%3A0075-13%3A00590008/",
+        "image_url": "https://assets.boconcept.com/d7d2494d-8b18-4c2a-8c8f-ad6c00146f5e/1601504_PNG-Web%2072dpi.png?fit=bounds&format=webply&quality=75&width=2048",
+        "price_hkd": 21190,
+        "currency": "HKD",
+        "price_type": "香港具体页面建议零售价；另有19390起，非同配置确价",
+        "outer_cm": null,
+        "material": "深橡木贴面／漆面等，按香港配置核实",
+        "colour": "以商品图及配置为准",
+        "tags": [
+          "书桌",
+          "居家办公"
+        ],
+        "stock": "购买前确认库存与交期",
+        "notes": "官方全球图库型号参考，不保证与香港所选颜色及配置一一对应；完整外尺寸待核实。",
+        "evidence": "香港官方商品搜索记录＋官方全球图库",
+        "inclusions": "桌子主体；桌椅、电脑、灯及配饰不自动包含",
+        "checked_date": "2026-10-19",
+        "fees_status": "配送、组装、上楼及其他费用按订单核实，未知不填0"
+      }
+    },
+    {
+      "source_file": "output/dressing_table_assets/pending_products.json",
+      "record": {
+        "channel": "Pricerite",
+        "name": "ALEN DY-D-18058／977272",
+        "source_url": "https://www.pricerite.com.hk/hk/en-us/products/furniture/dressing-table-chair/alen-977272",
+        "reason": "单品页当前Not For Sale；不采用旧分类价格。"
+      }
+    },
+    {
+      "source_file": "output/dressing_table_assets/pending_products.json",
+      "record": {
+        "channel": "Pricerite",
+        "name": "MIA 连凳梳妆台／977139",
+        "source_url": "https://www.pricerite.com.hk/hk/en-us/products/furniture/dressing-table-chair/mia-977139",
+        "reason": "有53×40×150cm与材质资料，但当前Not For Sale；与STOCKROOM同名Mia分别处理。"
+      }
+    },
+    {
+      "source_file": "output/dressing_table_assets/pending_products.json",
+      "record": {
+        "channel": "Pricerite",
+        "name": "Red Apple TR760／970418",
+        "source_url": "https://www.pricerite.com.hk/hk/en-us/products/furniture/dressing-table-chair/red-apple-970418",
+        "reason": "有连凳型号，但当前Not For Sale，未完成可购买价格配对。"
+      }
+    },
+    {
+      "source_file": "output/dressing_table_assets/pending_products.json",
+      "record": {
+        "channel": "Molteni&C",
+        "name": "Beauté",
+        "source_url": "https://www.molteni.it/en/deat/product/beaute",
+        "reason": "有全球品牌型号线索；本次未完成具体配置实图与香港供应、报价配对。"
+      }
+    },
+    {
+      "source_file": "output/dressing_table_assets/pending_products.json",
+      "record": {
+        "channel": "at.home",
+        "name": "TORRELL旧推广图注",
+        "source_url": "https://www.athome.com.hk/estate-move-in-offer/",
+        "reason": "推广页图注与显示商品不一致，不能据此建立当前梳妆台SKU和报价。"
+      }
+    },
+    {
+      "source_file": "output/bedroom_seating_assets/pending_products.json",
+      "record": {
+        "channel": "IKEA",
+        "name": "LÅNGFJÄLL 50320570",
+        "source_url": "https://www.ikea.com.hk/en/products/work-chairs/work-chairs/langfjall-art-50320570",
+        "reason": "此编号为扶手配件，HK$300不是整椅价；排除整椅数据集。"
+      }
+    },
+    {
+      "source_file": "output/bedroom_seating_assets/pending_products.json",
+      "record": {
+        "channel": "NITORI",
+        "name": "OC931扶手升级配件",
+        "source_url": "https://www.nitori.com.hk/search?q=OC931",
+        "reason": "检索中HK$100为扶手配件，未当作整椅价。整椅型号、配置与图片须另配对。"
+      }
+    },
+    {
+      "source_file": "output/lazy_sofa_assets/pending_products.json",
+      "record": {
+        "channel": "Decor8",
+        "name": "Kelly／Annie Bean Bag",
+        "reason": "官方检索有款式线索，但本轮未完成实时页面与图片配对；旧缓存价不当当前可购买价。"
+      }
+    },
+    {
+      "source_file": "output/lazy_sofa_assets/pending_products.json",
+      "record": {
+        "channel": "at.home",
+        "name": "VOLCANO",
+        "reason": "旧商品入口已跳转，未采用过往价格。"
+      }
+    },
+    {
+      "source_file": "output/lazy_sofa_assets/pending_products.json",
+      "record": {
+        "channel": "Pricerite",
+        "name": "NEDDY",
+        "reason": "当前页面不支持单独销售，未采用为可购买懒人沙发。"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "OVO",
+        "name": "YARAR Floor Lamp",
+        "price_reference_hkd": 8400,
+        "source_url": "https://ovo.com.hk/collections/lighting",
+        "reason": "分类页促销参考价，原10500；未完成有效单品与实图配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "OVO",
+        "name": "PIKUL Floor Lamp",
+        "price_reference_hkd": 4200,
+        "source_url": "https://ovo.com.hk/collections/lighting",
+        "reason": "未完成单品与实图配对；与FRAME PIKUL Floor 8800及Table款区分",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "OVO",
+        "name": "KAI-O Floor Lamp",
+        "price_reference_hkd": 9280,
+        "source_url": "https://ovo.com.hk/collections/lighting",
+        "reason": "分类页参考价，原11600；未完成单品与实图配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "HOMELESS",
+        "name": "Hubsch Solid Floor Lamp, Sand",
+        "price_reference_hkd": 2710,
+        "source_url": "https://homeless.hk/products/hub-solid-flamp-sand-h158cm-f",
+        "reason": "官网缓存参考促销价、原3190；单品当前返回404，未取得可核实当前图像",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "HOMELESS",
+        "name": "Hubsch Reflector Floor Lamp Orange",
+        "price_reference_hkd": 2980,
+        "source_url": "https://homeless.hk/collections/floor-lamp/products/hub-reflector-flamp-h160cm-f-org-grey",
+        "reason": "官网缓存有价格规格，实时网页读取受限，未完成图像配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "HOMELESS",
+        "name": "HAY Pao Steel Floor Lamp",
+        "price_reference_hkd": 4570,
+        "source_url": "https://homeless.hk/collections/hay/products/hay-pao-steel-floor-lamp",
+        "reason": "官网缓存参考价；制造品牌HAY，香港销售渠道HOMELESS；实图待补",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "ALOT Living",
+        "name": "ILKW SNOWMAN22 V2 Floor Lamp",
+        "price_reference_hkd": null,
+        "source_url": "https://alot.com.hk/products/ilkw-snowman22-v2-floor-lamp",
+        "reason": "不同页面／日期存在促销及版本差异，未完成具体配置、当前港币价与图像配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "BoConcept",
+        "name": "Kuta Floor Lamp",
+        "price_reference_hkd": 4659,
+        "source_url": "https://www.boconcept.com/en-hk/shop/lamps/floor-lamps/",
+        "reason": "香港分类页参考价；有效单品图像与配置待补",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "Decor8",
+        "name": "Classic Floor Lamp",
+        "price_reference_hkd": 980,
+        "source_url": "https://www.decor8.com.hk/decor8-classic-floor-lamp.html",
+        "reason": "缓存促销参考价，原2180；未完成选项配置与实图配对",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "Cassina",
+        "name": "Samambu Floor Lamp",
+        "price_reference_hkd": null,
+        "source_url": "https://www.cassina.com/gb/en/products/samambu-floor-lamp.html",
+        "reason": "全球型号存在；香港该型号供应、价格与实图待核实",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/floor_lamp_assets/pending_products.json",
+      "record": {
+        "channel": "Molteni&C",
+        "name": "Out / Vibia X Molteni&C",
+        "price_reference_hkd": null,
+        "source_url": "https://www.molteni.it/us/product/out",
+        "reason": "全球户外落地灯型号；本轮以卧室室内灯为主，香港报价及适用配置另核",
+        "checked_date": "2026-10-19"
+      }
+    },
+    {
+      "source_file": "output/full_length_mirror_assets/pending_products.json",
+      "record": {
+        "channel": "Pricerite",
+        "name": "曲木企身镜248479／248480",
+        "source_url": "https://www.pricerite.com.hk/hk/en-us/products/homeware/homeware/248479",
+        "reason": "当前单品页Not For Sale，整件28×47×144cm；不计入可购买主数据。"
+      }
+    },
+    {
+      "source_file": "output/full_length_mirror_assets/pending_products.json",
+      "record": {
+        "channel": "Pricerite",
+        "name": "曲木壁挂镜248476",
+        "source_url": "https://www.pricerite.com.hk/hk/en-us/products/homeware/homeware/248476",
+        "reason": "当前Not For Sale；旧活动折扣不能作为本次现价。"
+      }
+    },
+    {
+      "source_file": "output/full_length_mirror_assets/pending_products.json",
+      "record": {
+        "channel": "Indigo Living",
+        "name": "Malta Floor Mirror",
+        "source_url": "https://indigo-living.com/products/malta-walnut-floor-mirror",
+        "reason": "检索缓存3990；库存文字互相冲突，实时页面与实图未配对，不入主数据。"
+      }
+    },
+    {
+      "source_file": "output/full_length_mirror_assets/pending_products.json",
+      "record": {
+        "channel": "Roche Bobois",
+        "name": "ANGLE",
+        "source_url": "https://technicals.roche-bobois.com/M30585712/Tsv_Angle.pdf",
+        "reason": "全球官方有落地镜技术资料；本次香港单品入口不可用，未绑定香港报价。"
+      }
+    },
+    {
+      "source_file": "output/full_length_mirror_assets/pending_products.json",
+      "record": {
+        "channel": "Francfranc",
+        "name": "Pearl Beads Mirror",
+        "source_url": "https://hk.francfranc.net/products/1111040114943",
+        "reason": "仅43×59cm，属小型装饰壁镜，排除全身镜数据。"
+      }
+    },
+    {
+      "source_file": "output/full_length_mirror_assets/pending_products.json",
+      "record": {
+        "channel": "HOMELESS",
+        "name": "Gudee Grota Leaning Rack",
+        "source_url": "https://homeless.hk/collections/floor-mirror/products/gudee-grota-leaning-mirror-and-storage",
+        "reason": "组合中的圆镜用于查看面部；不能只凭整件支架高度当全身镜。"
+      }
+    },
+    {
+      "source_file": "output/rug_assets/pending_products.json",
+      "record": {
+        "channel": "STOCKROOM",
+        "name": "Tribal Pattern Berber Rug／RUG075",
+        "source_url": "https://www.stockroom.com.hk/accessories-rugs/rugs/tribal-pattern-berber-fluffy-rugs-carpeta-15367",
+        "reason": "同页材质栏写聚酯，正文却写聚丙烯；未纳入主数据，待商户确认。"
+      }
+    },
+    {
+      "source_file": "output/rug_assets/pending_products.json",
+      "record": {
+        "channel": "MUJI",
+        "name": "香港旧地毯分类",
+        "source_url": "https://www.muji.com.hk/zh/sub-category.php?c=003&dept=109&id=036",
+        "reason": "旧入口跳转新网店；缓存洗水棉地毯320元未完成当前SKU与尺寸配对。"
+      }
+    },
+    {
+      "source_file": "output/rug_assets/pending_products.json",
+      "record": {
+        "channel": "TREE",
+        "name": "Rugs分类",
+        "source_url": "https://tree.com.hk/home-accessories/rugs",
+        "reason": "动态页面未完成当前单品与价格图配对。"
+      }
+    },
+    {
+      "source_file": "output/rug_assets/pending_products.json",
+      "record": {
+        "channel": "BoConcept",
+        "name": "Rugs目录",
+        "source_url": "https://www.boconcept.com/en-hk/shop/rugs/",
+        "reason": "有多尺寸起价线索，不将from价格绑定全部尺寸。"
+      }
+    },
+    {
+      "source_file": "output/rug_assets/pending_products.json",
+      "record": {
+        "channel": "Indigo Living",
+        "name": "Joy Rug",
+        "source_url": "https://indigo-living.com/products/joy-rug-blue-boarder",
+        "reason": "多尺寸、多款式，当前选项价与图未配对。"
+      }
+    },
+    {
+      "source_file": "output/rug_assets/pending_products.json",
+      "record": {
+        "channel": "NITORI",
+        "name": "高密度毛毡垫／门垫",
+        "source_url": "https://www.nitori.com.hk/collections/地氈-地墊-1",
+        "reason": "毛毡垫11.9起与小门垫不是本次卧室区域地毯；排除主款数。"
+      }
+    }
+  ]
+}
