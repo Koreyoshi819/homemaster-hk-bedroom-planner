@@ -7,6 +7,9 @@ const $=id=>document.getElementById(id), money=n=>Number.isFinite(n)?'HK$ '+n.to
 async function readJSON(url){const r=await fetch(url);if(!r.ok)throw new Error('资料加载失败，请刷新重试');return r.json();}
 window.addEventListener('unhandledrejection',()=>{$('status').textContent='资料加载或处理失败，请刷新页面重试。';});
 const data=await readJSON('./data/products.json');let state=null,selected=null,activeLayoutCategory=null,selectedPersonas=new Set(),history=[];
+// Keep the profile inputs visible on every fresh page load. Some browsers restore
+// a previously collapsed <details> state even when the HTML includes `open`.
+document.querySelector('.needs-panel')?.setAttribute('open','');
 function el(tag,text,parent){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;parent?.append(node);return node;}
 // Build tag inputs before restoring a saved plan.
 for(const preset of presets){const button=el('button',preset.name,$('persona-tags'));button.type='button';button.dataset.persona=preset.id;button.setAttribute('aria-pressed','false');button.onclick=()=>{if(selectedPersonas.has(preset.id))selectedPersonas.delete(preset.id);else selectedPersonas.add(preset.id);updatePersonas();};}
