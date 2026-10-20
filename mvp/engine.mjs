@@ -23,15 +23,15 @@ export function recommend(catalogue,room,budget,style,profile={}){
 }
 
 export function validateLayout(objects,room){
- if(!room||![room.w,room.d].every(v=>Number.isFinite(v)&&v>0)||!Array.isArray(objects))return {ok:false,reason:'房间尺寸无效'};
+ if(!room||![room.w,room.d].every(v=>Number.isFinite(v)&&v>0)||!Array.isArray(objects))return {ok:false,reason:'Invalid room dimensions'};
  const overlap=(a,b)=>a.x<b.x+b.w-.01&&a.x+a.w>b.x+.01&&a.y<b.y+b.d-.01&&a.y+a.d>b.y+.01;
- if(objects.some(a=>![a.x,a.y,a.w,a.d].every(Number.isFinite)||a.w<=0||a.d<=0||a.x<0||a.y<0||a.x+a.w>room.w+.01||a.y+a.d>room.d+.01))return {ok:false,reason:'家具超出房间边界'};
- if(objects.some((a,i)=>objects.slice(i+1).some(b=>a.category!=='rug'&&b.category!=='rug'&&overlap(a,b))))return {ok:false,reason:'家具之间发生重叠'};
+ if(objects.some(a=>![a.x,a.y,a.w,a.d].every(Number.isFinite)||a.w<=0||a.d<=0||a.x<0||a.y<0||a.x+a.w>room.w+.01||a.y+a.d>room.d+.01))return {ok:false,reason:'Furniture is outside the room boundary'};
+ if(objects.some((a,i)=>objects.slice(i+1).some(b=>a.category!=='rug'&&b.category!=='rug'&&overlap(a,b))))return {ok:false,reason:'Furniture overlaps'};
  const desks=objects.filter(a=>a.id==='object-desk'||a.category==='desk'||a.category==='vanity');
  const clearances=desks.map(desk=>{const r=desk.rotation||0,c=desk.category==='vanity'?60:75;return r===0?{x:desk.x,y:desk.y-c,w:desk.w,d:c}:r===90?{x:desk.x+desk.w,y:desk.y,w:c,d:desk.d}:r===180?{x:desk.x,y:desk.y+desk.d,w:desk.w,d:c}:{x:desk.x-c,y:desk.y,w:c,d:desk.d};});
  const reserved=[{x:0,y:room.d-90,w:90,d:90},{x:0,y:room.d-180,w:60,d:90},...clearances];
- if(clearances.some(c=>c.x<0||c.y<0||c.x+c.w>room.w+.01||c.y+c.d>room.d+.01))return {ok:false,reason:'桌前需要留出使用空间'};
- if(objects.some(a=>a.category!=='rug'&&reserved.some((b,i)=>!(i>=2&&a.category==='office_chair')&&overlap(a,b))))return {ok:false,reason:'占用了门口、通道或桌前预留区'};
+ if(clearances.some(c=>c.x<0||c.y<0||c.x+c.w>room.w+.01||c.y+c.d>room.d+.01))return {ok:false,reason:'Desk use clearance is required'};
+ if(objects.some(a=>a.category!=='rug'&&reserved.some((b,i)=>!(i>=2&&a.category==='office_chair')&&overlap(a,b))))return {ok:false,reason:'Door, passage or desk clearance is obstructed'};
  return {ok:true,reserved};
 }
 export function substitute(layout,product,room,targetProductId){
